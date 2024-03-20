@@ -1,12 +1,66 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cadastre-se</title>
-  <link rel="stylesheet" href="cadastro.css">
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastre-se</title>
+    <link rel="stylesheet" href="cadastro.css" />
+  </head>
+  <body>
+    <div class="caixaCadastro">
+      <div class="titulo">CADASTRE-SE</div>
+      <form class="formCadastro">
+        <div class="separar">
+          <div class="login">
+            <div class="digiteNome">
+              <label>Nome:</label>
+              <input type="text" />
+            </div>
+            <div class="digiteEmail">
+              <label>Email:</label>
+              <input type="email" />
+            </div>
+            <div class="digiteSenha">
+              <label>Senha:</label>
+              <input type="password" />
+            </div>
+            <div class="confirmeSenha">
+              <label>Confirme sua Senha:</label>
+              <input type="password" />
+            </div>
+            <div class="digiteCep">
+              <label>Cep:</label>
+              <input type="number" />
+            </div>
+          </div>
+          <div class="endereco">
+            <div class="digiteEstado">
+              <label>Estado:</label>
+              <input type="text" />
+            </div>
+            <div class="digiteCidade">
+              <label>Cidade:</label>
+              <input type="text" />
+            </div>
+            <div class="digiteBairro">
+              <label>Bairro:</label>
+              <input type="text" />
+            </div>
+            <div class="digiteRua">
+              <label>Rua:</label>
+              <input type="text" />
+            </div>
+            <div class="digiteNumero">
+              <label>Número:</label>
+              <input type="number" />
+            </div>
+          </div>
+        </div>
+        <div class="botoes">
+          <button type="submit">Enviar</button>
+          <button type="reset">Limpar</button>
+        </div>
+      </form>
+    </div>
+  </body>
 </html>
