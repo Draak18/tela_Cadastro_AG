@@ -1,0 +1,97 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100%;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url(fonts/Poppins/Poppins-Regular.ttf);
+}
+
+.caixaCadastro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: pink;
+  border-radius: 45px;
+  border: 1px solid black;
+  width: 80vh;
+  height: 80vh;
+}
+
+.titulo {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins";
+  margin: 10px;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.formCadastro {
+  border-radius: 45px;
+  width: 80vh;
+  height: 70vh;
+}
+
+.separar {
+  display: flex;
+  flex-direction: row;
+}
+
+.botoes {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.login {
+  width: 50%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.digiteNome,
+.digiteEmail,
+.digiteSenha,
+.confirmeSenha,
+.digiteCep {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.endereco {
+  width: 50%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.digiteEstado,
+.digiteCidade,
+.digiteBairro,
+.digiteRua,
+.digiteNumero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+}
