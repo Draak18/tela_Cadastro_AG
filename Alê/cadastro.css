@@ -8,11 +8,17 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Poppins";
 }
 
 @font-face {
   font-family: "Poppins";
   src: url(fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url(fonts/Montserrat/Montserrat-Medium.ttf);
 }
 
 .caixaCadastro {
@@ -22,7 +28,7 @@ body {
   flex-direction: column;
   background-color: pink;
   border-radius: 45px;
-  border: 1px solid black;
+  border: 1px solid rgb(146, 146, 146);
   width: 80vh;
   height: 80vh;
 }
@@ -33,7 +39,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Poppins";
   margin: 10px;
   font-size: 30px;
   font-weight: 300;
@@ -54,6 +59,16 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.botoes button {
+  font-family: "Poppins";
+  font-size: 15px;
+}
+
+.botoes button {
+  font: 100;
 }
 
 .login {
